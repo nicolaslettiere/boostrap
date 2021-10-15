@@ -95,7 +95,7 @@ iframe{
   color: grey;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 900px) {
   iframe{
     margin-top: 0;
   }
