@@ -39,7 +39,7 @@ h4{
 }
 
 #title{
-  background-color: #ef8172;
+  background-color: #A0D5D7;
   color: #fff;
 }
 
@@ -71,19 +71,48 @@ h4{
 }
 
 .icon{
-  color: #ef8172;
+  color: #A0D5D7;
   margin-bottom: 1.5rem;
 }
 
 .icon:hover{
-  color: #ff4c68;
+  color: #98C9CB;
+}
+
+#fotos{
+  text-align: center;
+  background-color: #A0D5D7;
+  color: #fff;
+}
+
+.carousel-inner{
+  padding: 7% 15%;
+}
+
+.fotos-text{
+  text-align: left;
+  color: #fff;
+  background-color: #A0D5D7;
+  padding: 0 15% 7%;
+  font-weight: 700;
+}
+
+.fotos-text h4{
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 5%;
 }
 
 #ubicacion{
   text-align: center;
-  background-color: #ef8172;
-  color: #fff;
+  color: #000;
   padding-bottom: 5%;
+}
+
+.h4-ubicacion{
+  margin-top: 15%;
+  font-size: 1rem;
 }
 
 iframe{
@@ -91,11 +120,16 @@ iframe{
 }
 
 #contacto{
+  background-color: #A0D5D7;
   padding: 5% 0;
   color: grey;
 }
 
-@media (max-width: 1000px) {
+.h4-contacto{
+  font-size: 1rem;
+}
+
+@media (max-width: 975px) {
   iframe{
     margin-top: 0;
   }
